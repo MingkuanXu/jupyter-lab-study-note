@@ -36,9 +36,23 @@
 * https://github.com/lckr/jupyterlab-variableInspector
 * Command to run: ```jupyter labextension install @lckr/jupyterlab_variableinspector ```
 
+## Problems & Solutions
 
-###
-activate specific conda environment in jupyterlab
+### Switching between conda environments.
+
+* https://stackoverflow.com/questions/30492623/using-both-python-2-x-and-python-3-x-in-ipython-notebook
+* Install **nb_conda_kernels** that detects and registers anaconda environments by
+  ```conda install nb_conda_kernels```
+* Install multiple ipython kernels by 
+   ```
+   conda create -n py27 python=2.7 ipykernel
+   conda create -n py36 python=3.6 ipykernel
+   ```
+* Alternatively, if jupyter lab is already running on Python 3, set up a python 2 kernel by
+   ```
+   python2 -m pip install ipykernel
+   python2 -m ipykernel install --user
+   ```
 
 
 
