@@ -54,6 +54,9 @@
    pip install ipykernel
    ipython kernel install --user
    ```
+   
+## RNA velocity project
+required package: [scanpy](https://scanpy.readthedocs.io/en/stable/) and [scvelo](https://scvelo.readthedocs.io/en/latest/)
 
 
 
