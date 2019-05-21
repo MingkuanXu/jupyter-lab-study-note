@@ -50,8 +50,9 @@
    ```
 * Alternatively, if jupyter lab is already running on Python 3, set up a python 2 kernel by
    ```
-   python2 -m pip install ipykernel
-   python2 -m ipykernel install --user
+   conda activate python2
+   pip install ipykernel
+   ipython kernel install --user
    ```
 
 
