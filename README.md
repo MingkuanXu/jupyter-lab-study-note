@@ -37,6 +37,9 @@
 * Command to run: ```jupyter labextension install @lckr/jupyterlab_variableinspector ```
 
 
+###
+activate specific conda environment in jupyterlab
+
 
 
 
